@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="color:rgb(4, 85, 206)"><center>Latihan Formulir</center></h1>
+    <table>
+        <form action="pro.php" method="POST">
+            <tr>
+                <td>Nama Lengkap</td><td><input type="text" name="nama_lengkap" size="50"></td>
+            </tr>
+            <tr>
+                <td>NIM</td><td><input type="text" name="NIM" size="50"></td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td><td><input type="text" name="nama_lengkap" size="50"></td>
+            </tr>
+            <tr>
+                <td>Asal Universitas</td><td><input type="text" name="nama_lengkap" size="50"></td>
+            </tr>
+            <tr>
+                <td>NIK</td><td><input type="text" name="NIK" size="50"></td>
+            </tr>
+            <tr>
+                <td>Tanggal lahir</td><td><input type="text" name="Tangal_lahir" size="50"></td>
+            </tr>
+                <tr>
+                <td>Jenis Kelamin</td><td> 
+                <input type="radio" name="jenis_kelamin" value="L">Laki-Laki / 
+                <input type="radio" name="jenis_kelamin" value="P">Perempuan</td>
+            </tr>
+            <tr>
+                <td>Alamat</td><td> <input type="text" name="alamat" size="50"></td></tr>
+            <tr>
+                <td>Email</td><td> <input type="email" name="email" size="50"></td></tr>
+            <tr>
+                <td>Nomor HP</td><td> <input type="text" name="nomor_hp" size="50"></td>
+            </tr>
+            <tr>
+                <td></td><td>
+                <input name="submit" type="submit" value="Submit">
+                <input name="reset" type="reset" value="Reset"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
